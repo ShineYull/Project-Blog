@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as r}from"./app.14e80c36.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"AcrylicServer/getting-started.md","lastUpdated":null}'),a={name:"AcrylicServer/getting-started.md"};function c(n,s,o,d,i,p){return r(),e("div")}const m=t(a,[["render",c]]);export{_ as __pageData,m as default};
