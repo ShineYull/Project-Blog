@@ -5,7 +5,6 @@ export default {
         ['link', { rel: 'icon', href: '/sudaqishui.webp' }]
     ],
     lastUpdated: true,
-    lastUpdatedText: "最近一次更新",
     themeConfig: {
         siteTitle: "Shine开发博客",  //左上角的
         logo: "/sudaqishui.webp",      //左上角的logo,注意：它的路径是从public文件夹开始的，所以这里引用的是public/logo.jpg这张图
@@ -50,5 +49,6 @@ export default {
             pattern: 'https://github.com/ShineYull/Project-Blog/issues',
             text: '欢迎提issues'
         },
+        lastUpdatedText: "最近一次更新",
     },
 }
