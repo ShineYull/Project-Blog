@@ -37,6 +37,7 @@ export default {
                         { text: "2023年9月15日", link: "/Indie_Games_Blog/2023_9_15" },
                         { text: "2023年9月18日", link: "/Indie_Games_Blog/2023_9_18" },
                         { text: "2023年9月23日", link: "/Indie_Games_Blog/2023_9_23" },
+                        { text: "2023年9月24日", link: "/Indie_Games_Blog/2023_9_24" },
                     ],
                 },
             ],
