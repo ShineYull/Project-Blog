@@ -1,8 +1,21 @@
+import mdItCustomAttrs  from 'markdown-it-custom-attrs'
+
 export default {
+    markdown:{
+        config: (md) => {
+            // use more markdown-it plugins!
+            md.use(mdItCustomAttrs, 'image', {
+                'data-fancybox': "gallery"
+            })
+        }
+    },
+
     title: 'Shine开发博客',
     description: 'Just playing around.',
     head:[
-        ['link', { rel: 'icon', href: '/sudaqishui.webp' }]
+        ['link', { rel: 'icon', href: '/sudaqishui.webp' }],
+        ["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" }],
+        ["script", { src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js" }],
     ],
     lastUpdated: true,
     themeConfig: {
@@ -37,6 +50,7 @@ export default {
                         { text: "2023年9月18日", link: "/Indie_Games_Blog/2023_9_18" },
                         { text: "2023年9月23日", link: "/Indie_Games_Blog/2023_9_23" },
                         { text: "2023年9月24日", link: "/Indie_Games_Blog/2023_9_24" },
+                        { text: "2023年11月11日", link: "/Indie_Games_Blog/2023_11_11" },
                     ],
                 },
             ],
